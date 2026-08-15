@@ -68,7 +68,7 @@ export default function Menu() {
             className="btn btn-outline"
             style={{ borderColor: 'rgba(255,255,255,.5)', color: '#fff' }}
           >
-            Ρωτήστε για το Πλήρες Μενού · Ask For Full Menu
+             Ask For Full Menu
           </a>
         </div>
       </div>

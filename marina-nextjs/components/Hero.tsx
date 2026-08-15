@@ -22,7 +22,7 @@ export default function Hero({ onReserve }: { onReserve: () => void }) {
         </p>
         <div className="hero-cta">
           <a href="#menu" className="btn btn-outline">
-            Δείτε το Μενού · View Menu
+             View Menu
           </a>
           <a
             href="#"
@@ -32,13 +32,9 @@ export default function Hero({ onReserve }: { onReserve: () => void }) {
               onReserve();
             }}
           >
-            Κράτηση · Book a Table
+             Book a Table
           </a>
         </div>
-      </div>
-      <div className="hero-scroll">
-        <span>Scroll</span>
-        <span className="line"></span>
       </div>
     </header>
   );
