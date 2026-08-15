@@ -104,35 +104,6 @@ export default function Location() {
                 <div className="val">Καθημερινά 10:00 – 01:00</div>
               </div>
             </div>
-
-            <form className="loc-form" onSubmit={handleSubmit}>
-              <div className="frow">
-                <label htmlFor="cf-name">Όνομα · Name</label>
-                <input id="cf-name" name="name" type="text" placeholder="Το όνομά σας" required />
-              </div>
-              <div className="frow">
-                <label htmlFor="cf-email">Email</label>
-                <input id="cf-email" name="email" type="email" placeholder="you@email.com" required />
-              </div>
-              <div className="frow">
-                <label htmlFor="cf-phone">Τηλέφωνο (προαιρετικό) · Phone (optional)</label>
-                <input id="cf-phone" name="phone" type="tel" placeholder="+30 ..." />
-              </div>
-              <div className="frow">
-                <label htmlFor="cf-msg">Μήνυμα · Message</label>
-                <textarea id="cf-msg" name="message" placeholder="Πείτε μας για την κράτησή σας..." required />
-              </div>
-              <button type="submit" className="btn btn-gold" style={{ width: '100%', justifyContent: 'center' }}>
-                Αποστολή Μηνύματος · Send Message
-              </button>
-              <div className={`form-success ${showSuccess ? 'show' : ''}`}>
-                Ευχαριστούμε! Θα σας απαντήσουμε σύντομα. · Thank you — we&apos;ll reply shortly.
-              </div>
-              <p className="form-note">
-                Θα ανοίξει το email σας για αποστολή. This opens your email client to send the
-                message directly to us.
-              </p>
-            </form>
           </div>
         </Reveal>
       </div>
