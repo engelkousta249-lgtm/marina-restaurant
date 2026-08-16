@@ -36,10 +36,6 @@ export const menuCategories: MenuCategory[] = [
     dishes: [
       { name: 'Χταπόδι στη Σχάρα', note: 'Grilled octopus, fava, capers', price: '€16.00' },
       { name: 'Γαρίδες Σαγανάκι', note: 'Shrimp saganaki, tomato, feta, ouzo', price: '€15.50' },
-      { name: 'Καλαμάρι Τηγανητό', note: 'Crispy fried calamari, lemon aioli', price: '€13.00' },
-      { name: 'Μύδια Σαγανάκι', note: 'Mussels in white wine & tomato', price: '€12.50' },
-      { name: 'Πιάτο Θαλασσινών', note: 'Mixed seafood platter for two', price: '€38.00' },
-      { name: 'Σολομός Σχάρας', note: 'Grilled salmon, citrus butter', price: '€17.00' },
     ],
   },
   
